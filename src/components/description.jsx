@@ -4,13 +4,8 @@ function Description() {
   return (
     <div className="description">
       <p>
-        Description block. Spicy jalapeno bacon ipsum dolor amet shank minim alcatra flank, chuck
-        commodo meatball ipsum dolor nostrud tongue quis ball tip brisket.
-        Voluptate excepteur ut, aliqua fatback sirloin tail ad commodo doner
-        ipsum consectetur rump strip steak pig. Aliquip minim tenderloin,
-        porchetta chislic landjaeger sed dolor bacon fatback adipisicing.
-        Biltong labore pastrami jerky porchetta duis ea shankle shoulder brisket
-        salami drumstick pork chop.
+        TEFL Assistant will be a collection of simple games and tools to assist
+        "Teachers of English as a Foreign Language". It is largely based on my preferences, but as this site grows, there will be opportunity for people to submit their own materials to share with others.
       </p>
     </div>
   );

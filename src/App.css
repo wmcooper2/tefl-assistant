@@ -6,35 +6,58 @@
 header {
   font-family: HeaderFont;
   text-align: center;
-  color: white;
+  color: black;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     to top,
-    rgba(255, 255, 255, 0.7917542016806722) 0%,
+    rgba(255, 255, 255, 0.8) 0%,
     rgba(166, 105, 255, 1) 60%
   );
-  height: 10vh;
+  height: auto;
 }
+
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+nav .dropdown {
+  padding: 1em;
 }
 
 .description,
-.benefits {
+.benefits,
+.gallery {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   max-width: 90vw;
   margin: 0 auto;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
+.bookdescription {
+  display: flex;
+  word-wrap: normal;
+  justify-content: center;
+  align-items: center;
+  padding: 5vmax;
+}
+
+.bookdescription p {
+  max-width: 40vw;
+  margin: 5vmax;
+}
+
+.bookdescription img {
+  max-width: 15vw;
+}
+
 /* Dropdown Button */
-.dropdown {
+.dropbtn {
   background-color: rgba(0, 0, 0, 0);
   font-family: HeaderFont;
   font-size: inherit;
-  color: rgba(166, 105, 255, 1) 60%;
+  color: black;
   border: none;
 }
 
@@ -47,6 +70,7 @@ nav {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
+  font-size: 1em;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
@@ -57,6 +81,7 @@ nav {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
+  font-size: 16px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -70,11 +95,6 @@ nav {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 @media (min-width: 1000px) {
