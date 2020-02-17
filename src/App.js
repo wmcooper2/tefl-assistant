@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./components/header";
 import Description from "./components/description";
-// import Benefits from "./components/benefits";
 import Gallery from "./components/gallery";
 import "./App.css";
 
@@ -10,7 +9,6 @@ function App() {
     <React.Fragment>
       <Header />
       <Description />
-      {/* <Benefits /> */}
       <div className="bookdescription">
         <p className="">
           Currently, I am using the Total English Book series. The tools are
