@@ -1,7 +1,7 @@
 import React from "react";
 
 // COMPONENTS
-import Header from "./components/header";
+// import Header from "./components/header";
 import { Description, SectionDescription } from "./components/description";
 import Gallery from "./components/gallery";
 // import Book from "./components/book";
@@ -19,7 +19,10 @@ import "./App.css";
 function App() {
   return (
     <React.Fragment>
-      <Header games={games} tools={tools} funstuff={funstuff} />
+      <header>
+        <h1>TEFL Assistant</h1>
+      </header>
+      {/* <Header games={games} tools={tools} funstuff={funstuff} /> */}
       <Description description={homepageDescription} />
 
       {/* Books */}
