@@ -1,14 +1,19 @@
 import React from "react";
 
-function Description() {
+const Description = props => {
   return (
     <div className="description">
-      <p>
-        TEFL Assistant will be a collection of simple games and tools to assist
-        "Teachers of English as a Foreign Language". It is largely based on my preferences, but as this site grows, there will be opportunity for people to submit their own materials to share with others.
-      </p>
+      <p>{props.description}</p>
     </div>
   );
-}
+};
 
-export default Description;
+const SectionDescription = props => {
+  return (
+    <div className="description">
+      <h2>{props.description}</h2>
+    </div>
+  );
+};
+
+export { Description, SectionDescription };

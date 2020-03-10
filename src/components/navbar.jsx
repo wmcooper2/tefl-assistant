@@ -1,6 +1,7 @@
 import React from "react";
 
 const NavDropDown = props => {
+  console.log()
   const dropDown = props.items.map(item => (
     <a key={item.name} href={item.url}>
       {item.name}

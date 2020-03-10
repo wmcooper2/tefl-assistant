@@ -30,26 +30,26 @@ nav .dropdown {
 .gallery {
   display: flex;
   justify-content: center;
-  max-width: 90vw;
+  max-width: 95vw;
   margin: 0 auto;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
-.bookdescription {
+.main-book-selection {
   display: flex;
-  word-wrap: normal;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 90vw;
   align-items: center;
-  padding: 5vmax;
+  margin: 10vh auto;
 }
-
-.bookdescription p {
-  max-width: 40vw;
-  margin: 5vmax;
-}
-
-.bookdescription img {
+.main-book-selection div.description {
   max-width: 15vw;
+  text-align: center;
+}
+
+.gallery-image {
+  width: 15vw;
 }
 
 /* Dropdown Button */
