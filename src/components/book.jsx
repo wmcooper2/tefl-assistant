@@ -4,10 +4,10 @@ const Book = props => {
   let { item } = props;
   if (item === null) {
     item = {
-      name: "testbook",
+      name: "test",
       image: "thumbs/totalenglish.png",
-      alt: "total english",
-      description: "Some description about the item."
+      alt: "test",
+      description: "Some test description about the item."
     };
   }
   return (

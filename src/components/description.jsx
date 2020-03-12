@@ -3,17 +3,17 @@ import React from "react";
 const Description = props => {
   return (
     <div className="description">
-      <p>{props.description}</p>
+      <p className="section-title">{props.description}</p>
     </div>
   );
 };
 
-const SectionDescription = props => {
+const MainDescription = props => {
   return (
-    <div className="description">
+    <div className="maindescription">
       <h2>{props.description}</h2>
     </div>
   );
 };
 
-export { Description, SectionDescription };
+export { Description, MainDescription };

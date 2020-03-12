@@ -15,15 +15,13 @@ const Thumb = props => {
 
   return (
     <a href={item.url}>
-      <button className="gallery-button">
-        <img
-          className="gallery-image"
-          key={item.name}
-          src={item.image}
-          alt={item.alt}
-        ></img>
-        {link}
-      </button>
+      <img
+        className="gallery-image"
+        key={item.name}
+        src={item.image}
+        alt={item.alt}
+      ></img>
+      {link}
     </a>
   );
 };

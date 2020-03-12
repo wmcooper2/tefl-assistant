@@ -1,18 +1,22 @@
 import React from "react";
-import NavDropDown from "./navbar";
 
-// need to follow this guide... use fetch to call the endpoint which takes you back to express.
-// https://www.freecodecamp.org/news/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0/
-
-const Header = props => {
-  const { games, tools, funstuff } = props;
+const Header = () => {
   return (
     <header>
-      TEFL Assistant
+      <p className="site-title">TEFL Assistant</p>
       <nav>
-        <NavDropDown {...games} />
-        <NavDropDown {...tools} />
-        <NavDropDown {...funstuff} />
+        <a href="#books">
+          <p className="section-link">Books</p>
+        </a>
+        <a href="#games">
+          <p className="section-link">Games</p>
+        </a>
+        <a href="#tools">
+          <p className="section-link">Tools</p>
+        </a>
+        <a href="#funstuff">
+          <p className="section-link">FunStuff</p>
+        </a>
       </nav>
     </header>
   );

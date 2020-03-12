@@ -1,11 +1,12 @@
+// need to follow this guide... use fetch to call the endpoint which takes you back to express.
+// https://www.freecodecamp.org/news/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0/
+
 import React from "react";
 
 // COMPONENTS
-// import Header from "./components/header";
-import { Description, SectionDescription } from "./components/description";
+import Header from "./components/header";
+import { Description, MainDescription } from "./components/description";
 import Gallery from "./components/gallery";
-// import Book from "./components/book";
-// import Game from "./components/game";
 import Thumb from "./components/thumb";
 
 // DATA
@@ -19,36 +20,30 @@ import "./App.css";
 function App() {
   return (
     <React.Fragment>
-      <header>
-        <h1>TEFL Assistant</h1>
-      </header>
-      {/* <Header games={games} tools={tools} funstuff={funstuff} /> */}
-      <Description description={homepageDescription} />
+      <Header />
+      <MainDescription description={homepageDescription} />
 
       {/* Books */}
-      <div className="main-book-selection">
-        <SectionDescription description={books.title} />
+      <div className="gallery-section" id="books">
+        <Description description={books.title} />
         <Gallery list={books.items} Component={Thumb}></Gallery>
       </div>
 
       {/* Games */}
-      {/* Game component adapted from Book component */}
-      <div className="main-book-selection">
-        <SectionDescription description={games.title} />
+      <div className="gallery-section" id="games">
+        <Description description={games.title} />
         <Gallery list={games.items} Component={Thumb}></Gallery>
       </div>
 
       {/* Tools */}
-      {/* uses the Game component for now */}
-      <div className="main-book-selection">
-        <SectionDescription description={tools.title} />
+      <div className="gallery-section" id="tools">
+        <Description description={tools.title} />
         <Gallery list={tools.items} Component={Thumb}></Gallery>
       </div>
 
-      {/* Stuff */}
-      {/* uses the Game component for now */}
-      <div className="main-book-selection">
-        <SectionDescription description={funstuff.title} />
+      {/* Funstuff */}
+      <div className="gallery-section" id="funstuff">
+        <Description description={funstuff.title} />
         <Gallery list={funstuff.items} Component={Thumb}></Gallery>
       </div>
     </React.Fragment>
