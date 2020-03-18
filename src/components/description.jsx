@@ -11,7 +11,7 @@ const Description = props => {
 const MainDescription = props => {
   return (
     <div className="maindescription">
-      <h2>{props.description}</h2>
+      <p>{props.description}</p>
     </div>
   );
 };

@@ -9,6 +9,7 @@ const funstuff = {
       description: "spongebob episode transcripts",
       url: "https://spongebob.fandom.com/wiki/List_of_transcripts"
     },
+
     {
       name: "Lyrics.com",
       image:
@@ -16,6 +17,24 @@ const funstuff = {
       alt: "song lyrics",
       description: "song lyrics website",
       url: "https://www.lyrics.com/"
+    },
+
+    {
+      name: "Anime Lyrics",
+      image:
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/animelyrics.jpeg",
+      alt: "anime lyrics",
+      description: "English and Japanese anime song lyrics",
+      url: "https://www.animelyrics.com/"
+    },
+
+    {
+      name: "Pokestop",
+      image:
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/pokestop.jpeg",
+      alt: "pokestop",
+      description: "English information about Pokemon",
+      url: "https://www.pokestop.io/"
     }
   ]
 };

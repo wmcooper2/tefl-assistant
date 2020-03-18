@@ -3,19 +3,19 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <p className="site-title">TEFL Assistant</p>
+      <h1 className="site-title">TEFL Assistant</h1>
       <nav>
         <a href="#books">
-          <p className="section-link">Books</p>
+          <span className="section-link">Books</span>
         </a>
         <a href="#games">
-          <p className="section-link">Games</p>
+          <span className="section-link">Games</span>
         </a>
         <a href="#tools">
-          <p className="section-link">Tools</p>
+          <span className="section-link">Tools</span>
         </a>
         <a href="#funstuff">
-          <p className="section-link">FunStuff</p>
+          <span className="section-link">FunStuff</span>
         </a>
       </nav>
     </header>

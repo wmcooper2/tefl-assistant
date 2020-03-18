@@ -1,17 +1,35 @@
 :root {
-  font-size: 16px;
-  scroll-behavior: smooth;
   --background-color: rgba(169, 234, 245, 0.767);
   --light-blue: rgba(146, 193, 255, 0.76);
   --dark-shadow: rgba(112, 114, 247, 0.5);
+  --dark-blue: rgba(146, 193, 255, 1);
   --header-dark: rgba(0, 87, 99, 0.966);
+  --purple: rgb(183, 76, 245);
+
   background-color: var(--background-color);
   font-size: 16px;
+  scroll-behavior: smooth;
+  --soft-border: 6px;
 }
 
 @font-face {
   font-family: HeaderFont;
   src: url("./conthrax.semibold.ttf");
+}
+
+@keyframes noticeMe {
+  0% {
+    background-color: rgba(146, 193, 255, 0);
+    color: rgba(0, 0, 0, 1);
+  }
+  50% {
+    background-color: rgba(146, 193, 255, 1);
+    color: rgba(183, 76, 245, 1);
+  }
+  100% {
+    background-color: rgba(146, 193, 255, 0);
+    color: rgba(0, 0, 0, 1);
+  }
 }
 
 .site-title {
@@ -39,18 +57,22 @@ h1 {
   margin-bottom: 0px;
 }
 
-header nav {
+nav {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .section-link {
-  transition-duration: 100ms;
+  border-radius: var(--soft-border);
+  animation-name: noticeMe;
+  animation-duration: 800ms;
+  animation-delay: 1500ms;
+  animation-timing-function: ease-in-out;
 }
 
-.section-link:hover {
-  transform: scale(1.2);
-  transition-duration: 100ms;
+.section-link {
+  padding: 9px;
 }
 
 .gallery-section {
@@ -82,6 +104,7 @@ div.description {
 
 .section-title {
   font-size: 1rem;
+  font-family: HeaderFont;
 }
 
 .gallery-section {
@@ -92,17 +115,18 @@ div.description {
 .gallery-image {
   width: auto;
   max-height: 30vh;
-  box-shadow: 0.5rem 0.5rem 3px 3px var(--dark-shadow);
   margin: 1rem 1rem;
-  transition-duration: 500ms;
+  transition-duration: 300ms;
 }
 
 .gallery-image:hover {
-  transform: scale(1.05);
-  transition-duration: 500ms;
+  transform: scale(1.03);
+  transition-duration: 300ms;
+  box-shadow: 5px 3px 3px 3px var(--dark-shadow);
 }
 
-p {
+p,
+span {
   font-size: 2rem;
 }
 
@@ -111,12 +135,13 @@ p {
     font-size: 3rem;
   }
 
-  p.section-link,
-  p.section-title {
+  .section-title,
+  .section-link {
     font-size: 1.7rem;
   }
 
-  p {
+  p,
+  span {
     font-size: 1.3rem;
   }
 }
@@ -126,11 +151,13 @@ p {
     font-size: 3rem;
   }
 
-  .section-title {
+  .section-title,
+  .section-link {
     font-size: 1.5rem;
   }
 
-  p {
+  p,
+  span {
     font-size: 1.3rem;
   }
 }
@@ -140,11 +167,13 @@ p {
     font-size: 2rem;
   }
 
-  .section-title {
+  .section-title,
+  .section-link {
     font-size: 1.2rem;
   }
 
-  p {
+  p,
+  span {
     font-size: 1.2rem;
   }
 }
@@ -158,11 +187,13 @@ p {
     font-size: 1rem;
   }
 
-  .section-title {
+  .section-title,
+  .section-link {
     font-size: 1rem;
   }
 
-  p {
+  p,
+  span {
     font-size: 1rem;
   }
 }
