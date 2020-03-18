@@ -20,7 +20,7 @@ const tools = {
     {
       name: "Volunteers",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/chooseastudent.jpeg",
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/choose-a-student.jpeg",
       alt: "volunteers",
       description: "Some description about the tool.",
       url: "https://teflassistant.com/choose-a-student/"
@@ -28,7 +28,7 @@ const tools = {
     {
       name: "Pokemon Pronouns",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/pokemonpronouns.jpeg",
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/pokemon-pronouns.jpeg",
       alt: "pokemon pronouns",
       description: "Some description about the tool.",
       url: "https://teflassistant.com/pokemon-pronouns/"

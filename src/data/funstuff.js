@@ -22,7 +22,7 @@ const funstuff = {
     {
       name: "Anime Lyrics",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/animelyrics.jpeg",
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/anime-lyrics.jpeg",
       alt: "anime lyrics",
       description: "English and Japanese anime song lyrics",
       url: "https://www.animelyrics.com/"
@@ -31,10 +31,10 @@ const funstuff = {
     {
       name: "Pokestop",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/pokestop.jpeg",
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/pokestop-io.jpeg",
       alt: "pokestop",
       description: "English information about Pokemon",
-      url: "https://www.pokestop.io/"
+      url: "https://pokestop.io/"
     }
   ]
 };

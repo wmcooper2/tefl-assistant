@@ -4,7 +4,7 @@ const games = {
     {
       name: "Color Changing Tiles",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/colorchangingtiles.jpeg",
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/color-changing-tiles.jpeg",
       alt: "color changing tiles",
       description:
         "A generic tool used to keep track of any game that you make up.",
@@ -13,18 +13,18 @@ const games = {
     {
       name: "Matching Game",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/matchgame.jpeg",
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/match-game.jpeg",
       alt: "matching game",
       description: "Pair matching game for vocabulary practice.",
       url: "https://teflassistant.com/match-game"
     },
     {
-      name: "Where's The...?",
+      name: "Hiding Spot Game",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/hidingspotgame.jpeg",
+        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/hiding-spot-game.jpeg",
       alt: "hiding spot game",
       description: "Find the hiding spot game for teaching 'Where...?'",
-      url: "https://teflassistant.com/wheres-the"
+      url: "https://teflassistant.com/hiding-spot-game"
     }
   ]
 };
