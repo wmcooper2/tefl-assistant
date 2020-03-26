@@ -23,7 +23,7 @@ const tools = {
         "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/choose-a-student.jpeg",
       alt: "volunteers",
       description: "Some description about the tool.",
-      url: "https://teflassistant.com/choose-a-student/"
+      url: "https://teflassistant.com/volunteers/"
     },
     {
       name: "Pokemon Pronouns",

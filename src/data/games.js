@@ -8,7 +8,7 @@ const games = {
       alt: "color changing tiles",
       description:
         "A generic tool used to keep track of any game that you make up.",
-      url: "https://teflassistant.com/colored-tiles"
+      url: "https://teflassistant.com/color-changing-tiles"
     },
     {
       name: "Matching Game",
