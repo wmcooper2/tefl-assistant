@@ -4,7 +4,7 @@ A web site for TEFL teachers.
 ![Screenshot](screenshot.jpg)
 
 ## Purpose/Goal
-To share with other TEFL teachers useful games, tools, and links.
+To share with other TEFL teachers useful games, tools, and links that I've built and used for/with my own lessons.
 
 ## Operation
 Click on the links to play a game, use a tool or visit a helpful site for English teaching materials.
@@ -26,4 +26,4 @@ Click on the links to play a game, use a tool or visit a helpful site for Englis
 * The Apache server that runs in the bitnami instance was a pain because it was running quietly in the background and I had to learn how to get around using that. I ended up stopping it so I could run my Node server instead.
 
 ## More Information
-N/A
+[Color Palette](https://www.paletton.com/#uid=33q0u0k7UUa3cZA5wXlaiQ5cFL3)

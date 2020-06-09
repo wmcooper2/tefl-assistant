@@ -1,9 +1,13 @@
 :root {
-  --background-color: rgba(169, 234, 245, 0.767);
+  /* --background-color: rgba(169, 234, 245, 0.767); */
+  --image-hover-shadow-color: #fff8e6;
+  --background-color: white;
+  --section-background-color: #e3f4fb;
+  --section-shadow: #81bad0;
   --light-blue: rgba(146, 193, 255, 0.76);
   --dark-shadow: rgba(112, 114, 247, 0.5);
   --dark-blue: rgba(146, 193, 255, 1);
-  --header-dark: rgba(0, 87, 99, 0.966);
+  /* --header-dark: rgba(0, 87, 99, 0.966); */
   --purple: rgb(183, 76, 245);
 
   background-color: var(--background-color);
@@ -13,6 +17,7 @@
 
   /* Hide scrollbar for Chrome, Safari and Opera */
 }
+
 :root::-webkit-scrollbar {
   display: none;
 }
@@ -51,6 +56,10 @@ a {
   color: black;
 }
 
+body {
+  margin: 0;
+}
+
 button {
   backface-visibility: hidden;
 }
@@ -60,6 +69,13 @@ header {
   text-align: center;
   color: black;
   min-height: 15vh;
+  background: rgb(179, 219, 235);
+  background: linear-gradient(
+    270deg,
+    rgba(179, 219, 235, 0.758140756302521) 24%,
+    rgba(179, 219, 235, 1) 50%,
+    rgba(179, 219, 235, 0.758140756302521) 74%
+  );
 }
 
 h1 {
@@ -92,9 +108,28 @@ nav {
   align-items: center;
   max-width: 95vw;
   margin: 1.5rem auto;
-  background-color: var(--light-blue);
+  /* background-color: var(--light-blue); */
+  background-color: var(--section-background-color);
   border-radius: 3px;
-  box-shadow: 3px 3px 3px var(--dark-shadow);
+  /* box-shadow: 3px 3px 3px var(--dark-shadow); */
+  box-shadow: 3px 3px 3px var(--section-shadow);
+}
+
+.book-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  max-width: 95vw;
+  margin: 1.5rem auto;
+  border-radius: 3px;
+}
+
+.book-description {
+  max-width: 210mm;
+  text-align: justify;
+  margin-top: 0;
 }
 
 .description,
@@ -117,10 +152,10 @@ div.description {
   font-family: HeaderFont;
 }
 
-.gallery-section {
-  display: flex;
-  justify-content: space-around;
-}
+/* .gallery-section { */
+/* display: flex; */
+/* justify-content: space-around; */
+/* } */
 
 .gallery-image {
   width: auto;
@@ -132,7 +167,8 @@ div.description {
 .gallery-image:hover {
   transform: scale(1.03);
   transition-duration: 300ms;
-  box-shadow: 5px 3px 3px 3px var(--dark-shadow);
+  /* box-shadow: 5px 3px 3px 3px var(--dark-shadow); */
+  box-shadow: 5px 3px 3px 3px var(--image-hover-shadow-color);
 }
 
 p,

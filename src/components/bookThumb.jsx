@@ -1,6 +1,6 @@
 import React from "react";
 
-const Thumb = (props) => {
+const BookThumb = (props) => {
   let { item } = props;
   let link = null;
 
@@ -18,7 +18,7 @@ const Thumb = (props) => {
   return (
     <a href={item.url}>
       <img
-        className="gallery-image"
+        className="book-gallery-image"
         key={item.name}
         src={item.image}
         alt={item.alt}
@@ -28,4 +28,4 @@ const Thumb = (props) => {
   );
 };
 
-export default Thumb;
+export default BookThumb;
