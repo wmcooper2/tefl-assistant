@@ -7,7 +7,7 @@ const tools = {
         "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/sentences.jpeg",
       alt: "sentence checker",
       description: "Some description about the tool.",
-      url: "https://teflassistant.com/total-english-sentence-js/",
+      url: "https://wmcooper2.com/total-english-sentence-js/",
     },
 
     {
@@ -16,7 +16,7 @@ const tools = {
         "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/dictionary.jpeg",
       alt: "dictionary",
       description: "Some description about the tool.",
-      url: "https://teflassistant.com/total-english-dictionary-js/",
+      url: "https://wmcooper2.com/total-english-dictionary-js/",
     },
 
     {
@@ -25,7 +25,7 @@ const tools = {
         "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/choose-a-student.jpeg",
       alt: "volunteers",
       description: "Some description about the tool.",
-      url: "https://teflassistant.com/classroom-volunteers/",
+      url: "https://wmcooper2.com/classroom-volunteers/",
     },
 
     {
@@ -34,7 +34,7 @@ const tools = {
         "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/pokemon-pronouns.jpeg",
       alt: "pokemon pronouns",
       description: "Some description about the tool.",
-      url: "https://teflassistant.com/pokemon-pronouns/",
+      url: "https://wmcooper2.com/pokemon-pronouns/",
     },
   ],
 };
