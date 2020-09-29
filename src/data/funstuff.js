@@ -4,7 +4,7 @@ const funstuff = {
     {
       name: "Spongebob Dialogue",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/spongebobdialogue.jpeg",
+        process.env.PUBLIC_URL+"/spongebobdialogue.jpeg",
       alt: "spongebob dialogue",
       description: "spongebob episode transcripts",
       url: "https://spongebob.fandom.com/wiki/List_of_transcripts"
@@ -13,7 +13,7 @@ const funstuff = {
     {
       name: "Lyrics.com",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/lyricsdotcom.jpeg",
+        process.env.PUBLIC_URL+"/lyricsdotcom.jpeg",
       alt: "song lyrics",
       description: "song lyrics website",
       url: "https://www.lyrics.com/"
@@ -22,7 +22,7 @@ const funstuff = {
     {
       name: "Anime Lyrics",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/anime-lyrics.jpeg",
+       process.env.PUBLIC_URL+ "/anime-lyrics.jpeg",
       alt: "anime lyrics",
       description: "English and Japanese anime song lyrics",
       url: "https://www.animelyrics.com/"
@@ -31,7 +31,7 @@ const funstuff = {
     {
       name: "Pokestop",
       image:
-        "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/tefl-assistant/home-page/pokestop-io.jpeg",
+        process.env.PUBLIC_URL+"/pokestop-io.jpeg",
       alt: "pokestop",
       description: "English information about Pokemon",
       url: "https://pokestop.io/"
